@@ -17,11 +17,11 @@ const Faq = () => {
 
                 </div>
 
-                <div className="collapse collapse-arrow bg-[#fffff5] mt-2 mb-3">
+                <div className="collapse collapse-arrow  bg-[#fffff5] mt-2 mb-3">
                     <input type="radio" name="my-accordion-2" defaultChecked />
-                    <div className="collapse-title text-xl font-medium"> What are your office hours?</div>
+                    <div className="collapse-title text-xl shadow-md font-medium"> What are your office hours?</div>
                     <div className="collapse-content">
-                        <p className=" font-light">Our office hours vary by location, but typically we are open Monday through Friday from 8:00 AM to 5:00 PM. Some locations may offer extended hours or weekend appointments. Please contact your nearest clinic for specific hours.</p>
+                        <p className=" pt-3 font-light">Our office hours vary by location, but typically we are open Monday through Friday from 8:00 AM to 5:00 PM. Some locations may offer extended hours or weekend appointments. Please contact your nearest clinic for specific hours.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-arrow bg-[#fffff5] mt-2 mb-3">

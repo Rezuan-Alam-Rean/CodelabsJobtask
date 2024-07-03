@@ -5,6 +5,7 @@ import DiscountBanner from './Components/DiscountBanner'
 import Faq from './Components/Faq'
 import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
+import Testimonial from './Components/Testimonial'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
            <Navbar/>
 
           <Banner/>
+          <Testimonial/>
          <Faq/>
           <DiscountBanner/>
           <Footer/>
