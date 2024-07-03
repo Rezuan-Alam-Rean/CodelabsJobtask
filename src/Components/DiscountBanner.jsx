@@ -1,7 +1,8 @@
 
-const Banner = () => {
+const DiscountBanner = () => {
     return (
-        <div className="max-w-7xl mx-auto ">
+        <div>
+             <div className="max-w-7xl mx-auto ">
             <div className=" relative mt-8 flex">
 
             
@@ -15,7 +16,8 @@ const Banner = () => {
             </div>
 
         </div>
+        </div>
     );
 };
 
-export default Banner;
+export default DiscountBanner;
