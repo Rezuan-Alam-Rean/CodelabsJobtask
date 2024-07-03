@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className="bg-[#020043] text-white py-4">
-            <div className="flex flex-col md:flex-row justify-around items-center space-y-4 md:space-y-0 md:space-x-8 p-10">
+            <div className="flex flex-col md:flex-row justify-start md:justify-around items-center space-y-4 md:space-y-0 md:space-x-8 p-10">
                 <aside>
                     <div className="mb-10 " >
 
@@ -21,7 +21,7 @@ const Footer = () => {
                         (Available : 10:00am to 07:00pm)
                     </p>
                 </aside>
-                <nav className="text-start flex gap-3 flex-col ">
+                <nav className="md:text-start text-center flex gap-3 flex-col ">
 
                     <a className="text-white hover:text-gray-400">Home
                     </a>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </a>
                     <a className="text-white hover:text-gray-400">Terms and condition</a>
                 </nav>
-                <nav className="text-start gap-3 flex flex-col">
+                <nav className="md:text-start text-center gap-3 flex flex-col">
 
                     <a className="text-white hover:text-gray-400">Services</a>
                     <a className="text-white hover:text-gray-400">Scheduling</a>
