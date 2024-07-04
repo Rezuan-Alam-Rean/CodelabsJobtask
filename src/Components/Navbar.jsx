@@ -5,6 +5,8 @@ import { useRef } from 'react';
 import { useEffect } from 'react';
 
 
+import  logo    from "../assets/Pictures/logo dark.png";
+
 const Navbar = () => {
     const [dropDownState, setDropDownState] = useState(false);
     const dropDownMenuRef = useRef();
@@ -31,7 +33,7 @@ const Navbar = () => {
 
                 <div className=" " >
 
-                    <img src="../../public/Media/logo dark.png" alt="pic" />
+                    <img src={logo} alt="pic" />
                 </div>
                 <ul className="hidden items-center justify-between gap-5 md:flex">
                     <li className="group flex  cursor-pointer flex-col">

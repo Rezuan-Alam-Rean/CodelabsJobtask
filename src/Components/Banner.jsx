@@ -1,3 +1,4 @@
+import  img1    from "../assets/Pictures/Rectangle 5.png";
 
 const Banner = () => {
     return (
@@ -5,7 +6,7 @@ const Banner = () => {
             <div className=" relative mt-8 flex">
 
             
-                <img className=" h-[470px] rounded-[50px] w-full    " src="../../public/Media/Rectangle 5.png" alt="" />
+                <img className=" h-[470px] rounded-[50px] w-full    " src={img1} alt="" />
                
 
                 <div className=" w-full h-[470px]  rounded-[50px] opacity-60    bg-gradient-to-r from-[#00c19e43] to-[#02004382]   absolute     ">

@@ -1,4 +1,6 @@
 import { HiMiniArrowUpRight } from "react-icons/hi2";
+import  img1    from "../assets/Pictures/Rectangle 32.png";
+import  img2    from "../assets/Pictures/logo light.png";
 
 const DiscountBanner = () => {
     return (
@@ -7,7 +9,7 @@ const DiscountBanner = () => {
                 <div className=" relative mt-8 flex">
 
 
-                    <img className=" h-[470px] rounded-[50px] w-full    " src="../../public/Media/Rectangle 32.png" alt="" />
+                    <img className=" h-[470px] rounded-[50px] w-full    " src={img1} alt="" />
 
 
                     <div className=" w-full h-[470px]  rounded-[50px] opacity-90    bg-gradient-to-r from-[#020043] to-[#0200434c]   absolute     ">
@@ -45,7 +47,7 @@ const DiscountBanner = () => {
 
                             <div className=" " >
 
-                                <img src="../../public/Media/logo light.png" alt="pic" />
+                                <img src={img2} alt="pic" />
                             </div>
                         </div>
                     </div>

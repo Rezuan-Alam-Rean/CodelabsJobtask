@@ -1,3 +1,10 @@
+import  img1    from "../assets/Pictures/Group 12.png";
+import  img2    from "../assets/Pictures/contract (1) 1.png";
+import  img3    from "../assets/Pictures/fi-sr-star.png";
+import  img4    from "../assets/Pictures/Group 7.png";
+import  img5    from "../assets/Pictures/Group.png";
+import  img6    from "../assets/Pictures/Group (1).png";
+
 
 const Overview = () => {
     return (
@@ -17,7 +24,7 @@ const Overview = () => {
                     <div className="mt-4 flex justify-center">
                         
                         <div className="">
-                            <img src="../../public/Group 12.png" alt="" />
+                            <img src={img1} alt="" />
                         </div>
                     </div>
                 </div>
@@ -27,7 +34,7 @@ const Overview = () => {
                     <div className="mt-4">
                         
                         <div className=" flex justify-end">
-                            <img src="../../public/contract (1) 1.png" alt="" />
+                            <img src={img2} alt="" />
                         </div>
                     </div>
                 </div>
@@ -35,11 +42,11 @@ const Overview = () => {
                     <div className="flex gap-4">
 
                     <h1 className="text-4xl font-bold text-start">4.8</h1>
-                    <img src="../../public/fi-sr-star.png" alt="" />
+                    <img src={img3} alt="" />
                     </div>
                     <p className="text-gray-600 text-start">Over 20,000 Patient</p>
                     <div className="mt-4">
-                       <img src="../../public/Group 7.png" alt="" />
+                       <img src={img4} alt="" />
                         
                     </div>
                 </div>
@@ -51,7 +58,7 @@ const Overview = () => {
                     <div className="mt-4">
                         
                         <div className=" flex justify-end">
-                            <img src="../../public/Group.png" alt="" />
+                            <img src={img5} alt="" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +69,7 @@ const Overview = () => {
                     <div className="mt-4 flex justify-center">
                         
                         <div className="pt-8">
-                            <img src="../../public/Group (1).png" alt="" />
+                            <img src={img6} alt="" />
                         </div>
                     </div>
                 </div>

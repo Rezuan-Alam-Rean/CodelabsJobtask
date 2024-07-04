@@ -3,6 +3,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 import { FaYoutube } from "react-icons/fa6";
 
 import { FaFacebook } from "react-icons/fa";
+import  img1    from "../assets/Pictures/logo light.png";
 
 const Footer = () => {
     return (
@@ -11,7 +12,7 @@ const Footer = () => {
                 <aside>
                     <div className="mb-10 " >
 
-                        <img src="../../public/Media/logo light.png" alt="pic" />
+                        <img src={img1} alt="pic" />
                     </div>
                     <p className="mb-4">
                         123 Main Street Anytown, USA <br />Postal Code: 12345

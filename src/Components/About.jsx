@@ -1,4 +1,5 @@
 import { HiMiniArrowUpRight } from "react-icons/hi2";
+import  img1    from "../assets/Pictures/Rectangle 24.png";
 
 const About = () => {
     return (
@@ -43,7 +44,7 @@ const About = () => {
                     </div>
 
                     <div className=" relative md:h-[450px] h-[400px]  p-5 md:w-1/2  ">
-                        <img src="../../public/Media/Rectangle 24.png" className="rounded-lg shadow-2xl w-full md:h-80 " />
+                        <img src={img1} className="rounded-lg shadow-2xl w-full md:h-80 " />
                         <div className="rounded-3xl shadow-2xl bottom-5 bg-[#343268]  w-80 md:left-[-40px] absolute border-white">
                             <div className="text-white p-5">
 

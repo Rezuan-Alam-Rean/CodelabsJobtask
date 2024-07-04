@@ -1,3 +1,7 @@
+import  img1    from "../assets/Pictures/Group 35.png";
+import  img2    from "../assets/Pictures/Group 35 (1).png";
+import  img3    from "../assets/Pictures/Group 35 (2).png";
+import  img4    from "../assets/Pictures/Frame 11.png";
 
 const Testimonial = () => {
     return (
@@ -18,22 +22,25 @@ const Testimonial = () => {
                 <div className="w-[371px] h-[251px] bg-[#FFFFF5] shadow-lg rounded-3xl p-6 ">
                     <p className="text-xl text-black font-medium">Expertise and Compassion Combined</p>
                     <p className="text-sm font-light mt-3 mb-4">I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
-                    <img src="../../public/Media/Group 35.png" alt="" />
+                    <img src={img1} alt="" />
 
                 </div>
                 <div className="w-[371px] h-[251px] bg-[#FFFFF5] shadow-lg rounded-3xl p-6 ">
                     <p className="text-xl text-black font-medium">Expertise and Compassion Combined</p>
                     <p className="text-sm font-light mt-3 mb-4">I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
-                    <img src="../../public/Media/Group 35 (1).png" alt="" />
+                    <img src={img2} alt="" />
 
                 </div>
                 <div className="w-[371px] h-[251px] bg-[#FFFFF5] shadow-lg rounded-3xl p-6 ">
                     <p className="text-xl text-black font-medium">Expertise and Compassion Combined</p>
                     <p className="text-sm font-light mt-3 mb-4">I can't thank enough for their exceptional care. The doctors and staff showed incredible expertise and compassion throughout my treatment journey. I felt truly cared for every step of the way.</p>
-                    <img src="../../public/Media/Group 35 (2).png" alt="" />
+                    <img src={img3} alt="" />
 
                 </div>
 
+            </div>
+            <div className="flex mt-8 mb-20 justify-center">
+                <img src={img4} alt="" />
             </div>
         </div>
     );

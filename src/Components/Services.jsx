@@ -1,4 +1,7 @@
 import { HiMiniArrowUpRight } from "react-icons/hi2";
+import  img1    from "../assets/Pictures/Rectangle 27-2.png";
+import  img2    from "../assets/Pictures/Rectangle 27-1.png";
+import  img3    from "../assets/Pictures/Rectangle 27.png";
 
 const Services = () => {
     return (
@@ -38,7 +41,7 @@ const Services = () => {
                 </div>
 
                 <div className="card rounded-3xl  w-full shadow-xl   ">
-                        <figure ><img className="w-full rounded-3xl"  src="../../public/Media/Rectangle 27-2.png" alt="offers" /></figure>
+                        <figure ><img className="w-full rounded-3xl"  src={img1} alt="offers" /></figure>
                       
                             <div className="text-white rounded-3xl z-10 shadow-2xl  bg-[#2d2b65] opacity-80 w-96 bottom-5 left-4 absolute border-white p-4">
 
@@ -52,7 +55,7 @@ const Services = () => {
                        
                     </div>
                 <div className="card rounded-3xl  w-full shadow-xl   ">
-                        <figure ><img className="w-full rounded-3xl"  src="../../public/Media/Rectangle 27-1.png" alt="offers" /></figure>
+                        <figure ><img className="w-full rounded-3xl"  src={img2} alt="offers" /></figure>
                       
                             <div className="text-white rounded-3xl z-10 shadow-2xl  bg-[#2d2b65] opacity-80 w-96 bottom-5 left-4 absolute border-white p-5">
 
@@ -66,7 +69,7 @@ const Services = () => {
                        
                     </div>
                 <div className="card rounded-3xl  w-full shadow-xl   ">
-                        <figure ><img className="w-full rounded-3xl"  src="../../public/Media/Rectangle 27.png" alt="offers" /></figure>
+                        <figure ><img className="w-full rounded-3xl"  src={img3} alt="offers" /></figure>
                       
                             <div className="text-white rounded-3xl z-10 shadow-2xl  bg-[#2d2b65] opacity-80 w-96 bottom-5 left-4 absolute border-white p-5">
 
