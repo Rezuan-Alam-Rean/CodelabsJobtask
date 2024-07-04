@@ -18,8 +18,8 @@ const DiscountBanner = () => {
                                     First Appointment
                                     at 50% Off!</h2>
 
-                                <div className="md:flex gap-5 ">
-                                    <button className=" bg-amber-300 justify-center items-center   flex gap-1 list-none rounded-lg px-4 py-2 font-medium text-[#020043] border-2 border-[#020043]">
+                                <div className="md:flex gap-5  ">
+                                    <button className=" bg-amber-300 justify-center mb-4 items-center btn  flex gap-1 list-none rounded-lg px-4 py-2 font-medium text-[#020043] border-2 border-[#020043]">
 
 
                                         Appointment
@@ -28,10 +28,14 @@ const DiscountBanner = () => {
 
                                         </div>
                                     </button>
-                                    <button className=" z-10  gap-1 list-none rounded-lg px-4 py-2 font-medium text-white border-2 border-[hsl(240,10%,96%)]">
+                                    <button className=" z-10 btn   gap-1 list-none rounded-lg px-4 py-2 font-medium text-black border-2 border-[hsl(240,10%,96%)]">
 
 
-                                        Appointment
+                                    Learn More
+                                    <div className="items-center justify-center flex">
+                                            <HiMiniArrowUpRight size={20} />
+
+                                        </div>
                                       
                                     </button>
 
